@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Eğitim Sitem</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="Short Icon" href="images/icon.png" type="image/x-icon">
+
+	<meta name="author" content="Hasancan Kazan , sorcoz@gmail.com" />
+	<meta name="abstract" content="Lise seviyesinde tüm derslere ait içerikleri bulabileceğiniz bir platform." />
+	<meta name="content-language" content="tr" />
+	<meta name="content-type" content="text/html" charset="utf-8" />
+	<meta name="Copyright" content=" © 2018 Desing By Hasancan Kazan" />
+	<meta name="desinger" content="Hasancan Kazan - Sorçöz eğitim platformu" />
+	<meta name="keywords" content="ders,kimya,fizik,biyoloj,matematik,sorcoz,canlılar" />
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 2000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+
+</head>
+<section id="anasayfa"> </section>
+<body>
+	
+	<div id="menu">
+		<div id="logo"></div>
+		<div id="menukategori">
+			<div id="menuyazi"><a href="#anasayfa"> ANA SAYFA </a> </a></div>
+			<div id="menuyazi"><a href="#dersler">  DERSLER </a></div>
+		</div>
+	</div>
+
+	<div id="banner"></div> <br>
+	<div id="iconlar"><center>	<img src="images/dersler.png" ></center>  <section id="dersler"></section>
+		<a href="biyoloji.html" target="sayfalar">	<div id="iconresmi"></div></a>
+		<a href="fizik.html" target="sayfalar">	<div id="iconresmi1"></div></a>
+		<a href="matematik.html" target="sayfalar">	<div id="iconresmi2"></div></a>
+		<a href="geometri.html" target="sayfalar">	<div id="iconresmi3"></div></a>
+		<a href="kimya.html" target="sayfalar">	<div id="iconresmi4"></div></a>
+	</div>
+
+	<IFRAME name="sayfalar" src="biyoloji.html" width="1200" height="850" scrolling="yes" frameborder="0" style="margin-top: 785px; margin-left: 100px; float: left;"></IFRAME>
+
+	<div id="footer">Copyright © 2018 Desing By Hasancan Kazan</div>	
+</body>
+</html>

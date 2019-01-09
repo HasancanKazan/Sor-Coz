@@ -1,0 +1,16 @@
+body { background-color: #EFEFEF;}
+#menu{  height: 74px; width: 100%; top:0px; left:0px; background-color:#FFFFFF; position:fixed; z-index: 1; }
+#logo{  height: 74px; width: 400px; margin-left: 80px; background-image: url(../images/logo.png); float: left;}
+#menukategori {height:72px; width:300px; float:left; margin-top:34px; margin-left:40px; margin-right: 100px; color:#CCCCCC;}
+#menuyazi {height: 72px; width: 100px; float: left; margin-right: 30px; font-family: "Courier New",Courier,mono;}
+#menuyazi a{text-decoration: none; color:#CCCCCC;}
+#menuyazi a:hover{color:#FF6600;}
+
+#banner{width: 100%; height: 520px; background-image:url(../images/banner.jpg); left:0px; position: absolute; margin-top:64px;}
+#iconlar{height: 160px; width:90%; margin:auto; float:left;  position: absolute; margin-top: 620px; padding-left: 100px;}
+#iconresmi{width:100px; height:110px; background-image: url(../images/biyolojiconu.png); margin-right: 60px; float:left; margin-left:220px;}
+#iconresmi1{width: 100px; height: 110px; background-image:url(../images/fizikiconu.png); float:left; margin-right:60px;}
+#iconresmi2{width: 100px; height: 110px; background-image:url(../images/matematikiconu.png); float:left; margin-right:60px;}
+#iconresmi3{width: 100px; height: 110px; background-image:url(../images/geometriconu.png); float:left; margin-right:60px;}
+#iconresmi4{width: 100px; height: 110px; background-image:url(../images/kimyaiconu.png); float:left; margin-right:60px;}
+
